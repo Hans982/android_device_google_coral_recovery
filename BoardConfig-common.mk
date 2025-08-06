@@ -254,4 +254,4 @@ BOARD_PERFSETUP_SCRIPT := platform_testing/scripts/perf-setup/c2f2-setup.sh
 TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 120
 
-TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/kernel/kernel
+TARGET_PREBUILT_KERNEL := device/google/coral/prebuilt/kernel/kernel
