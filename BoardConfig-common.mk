@@ -249,3 +249,7 @@ BOARD_PERFSETUP_SCRIPT := platform_testing/scripts/perf-setup/c2f2-setup.sh
 
 -include vendor/google_devices/coral/proprietary/BoardConfigVendor.mk
 -include device/google/coral/twrp.mk
+
+# OrangeFox / TWRP brightness settings
+TW_MAX_BRIGHTNESS := 255
+TW_DEFAULT_BRIGHTNESS := 120
