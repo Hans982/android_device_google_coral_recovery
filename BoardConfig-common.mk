@@ -253,3 +253,5 @@ BOARD_PERFSETUP_SCRIPT := platform_testing/scripts/perf-setup/c2f2-setup.sh
 # OrangeFox / TWRP brightness settings
 TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 120
+
+TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/kernel/kernel
