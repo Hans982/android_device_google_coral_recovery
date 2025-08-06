@@ -255,3 +255,5 @@ TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 120
 
 TARGET_PREBUILT_KERNEL := device/google/coral/prebuilt/kernel/kernel
+BOARD_PREBUILT_DTBIMAGE_DIR := device/google/coral/prebuilt/kernel
+BOARD_INCLUDE_DTB_IN_BOOTIMG := true
