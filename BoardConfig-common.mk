@@ -258,6 +258,4 @@ TARGET_PREBUILT_KERNEL := device/google/coral/prebuilt/kernel/kernel
 BOARD_PREBUILT_DTBIMAGE_DIR := device/google/coral/prebuilt/kernel
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 TARGET_FORCE_PREBUILT_KERNEL := true
-TARGET_NO_KERNEL_OVERRIDE := true
-TARGET_NO_KERNEL_SOURCE := true
 BOARD_KERNEL_IMAGE_NAME := kernel
