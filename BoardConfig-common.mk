@@ -253,10 +253,3 @@ BOARD_PERFSETUP_SCRIPT := platform_testing/scripts/perf-setup/c2f2-setup.sh
 # OrangeFox / TWRP brightness settings
 TW_MAX_BRIGHTNESS := 255
 TW_DEFAULT_BRIGHTNESS := 120
-
-TARGET_PREBUILT_KERNEL := device/google/coral/prebuilt/kernel/kernel
-BOARD_PREBUILT_DTBIMAGE_DIR := device/google/coral/prebuilt/kernel
-BOARD_INCLUDE_DTB_IN_BOOTIMG := true
-TARGET_FORCE_PREBUILT_KERNEL := true
-BOARD_KERNEL_IMAGE_NAME := kernel
-TARGET_NO_KERNEL := true
